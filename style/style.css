@@ -1,14 +1,16 @@
 
-.hdr{
+.hdr {
     background: #8A004D;
     color: #fff;
 }
+
 body {
     overflow-y: auto;
     background: #fff;
     font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', sans-serif;
     color: rgb(211, 211, 211);
 }
+
 body.popup-open {
     overflow: hidden;
 }
@@ -20,12 +22,13 @@ body.popup-open {
 }
 
 .card {
-    height: 300px; /* Adjust height as needed */
-    margin: 0 0 40px 0; /* Adjust spacing as needed */
+    height: 300px;
+    margin: 0 0 40px 0;
     transition: transform 1500ms;
     transform-style: preserve-3d;
-    border: none!important;
+    border: none !important;
 }
+
 .front,
 .back {
     height: 100%;
@@ -64,7 +67,7 @@ body.popup-open {
     margin: 0;
     width: 100%;
     box-sizing: border-box;
-    font-size: 1rem; /* Set a base font size */
+    font-size: 1rem;
 }
 
 @media (min-width: 576px) {
@@ -73,17 +76,18 @@ body.popup-open {
         font-size: 1.5rem;
     }
 }
+
 .refresh-btn {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     background-color: #fff;
-    display: inline-block; /* Change display to inline-block */
+    display: inline-block;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     border: none;
-    transition: background-color 0.3s, box-shadow 0.3s, transform 0.5s; /* Added transform transition */
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.5s;
     outline: none;
 }
 
@@ -101,9 +105,11 @@ body.popup-open {
     height: 22px;
     fill: #8A004D;
 }
+
 .rotate {
     transform: rotate(360deg);
 }
+
 .card.shake {
     animation: shake 1s ease-in-out;
 }
@@ -119,7 +125,8 @@ body.popup-open {
         transform: rotate(1deg);
     }
 }
-.close_btn{
+
+.close_btn {
     background-color: #8A004D;
     border-radius: 2rem;
     color: #fff;
@@ -130,6 +137,7 @@ body.popup-open {
     padding: 3px;
     align-items: center;
 }
+
 .popup {
     position: fixed;
     top: 50%;
@@ -147,23 +155,27 @@ body.popup-open {
     border-radius: 2rem;
 
 }
+
 .popup h1,
 .popup h3 {
     margin: 0;
-    font-style: italic; /* Italic */
-    font-weight: bold; /* Bold */
+    font-style: italic;
+    font-weight: bold;
     text-align: center;
     color: #000000;
 }
-.main_p{
+
+.main_p {
     font-weight: bold;
     text-align: center;
     margin-bottom: 0;
 }
-.hover_p{
-color: #8A004D;
+
+.hover_p {
+    color: #8A004D;
     margin: 15px 0 20px 0;
 }
+
 body.popup-open::before {
     content: "";
     position: fixed;
@@ -171,27 +183,31 @@ body.popup-open::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: transparent; /* Set a transparent background */
-    backdrop-filter: blur(3px); /* Adjust the blur amount */
-    z-index: 998; /* Ensure the blur is behind the popup */
+    background: transparent;
+    backdrop-filter: blur(3px);
+    z-index: 998;
 
 }
-.pop_st{
+
+.pop_st {
     color: #8A004D;
-    display: flex; /* Add display flex */
-    flex-direction: column; /* Column layout */
-    justify-content: center; /* Center vertically */
-    align-items: center; /* Center horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
-.pop_st button{
+
+.pop_st button {
     margin-top: 10px;
 }
-.ftr{
+
+.ftr {
     background: #8A004D;
     color: #fff;
 }
-.ftr h5{
+
+.ftr h5 {
     font-size: 0.7rem;
 }
 
