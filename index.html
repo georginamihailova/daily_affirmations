@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>daily-affirmations-gm</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <script src="script/script.js"></script>
+    <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.css">
+    <script src="bootstrap-4.5.3-dist/js/bootstrap.bundle.js"></script>
+
+</head>
+<body>
+<div class="popup" id="popup">
+    <div class="pop_st">
+        <h1>&#x0F3A;&#x2665;&#x0F3B;</h1>
+        <h3>AFFIRMATION OF THE DAY</h3>
+        <p class="main_p">I LOVE AND ACCEPT THIS MIND AND THIS BODY. I WILL NOURISH AND CHERISH THEM THROUGH LOVING THOUGHTS, TODAY AND
+            ALWAYS.</p>
+        <button onclick="closePopup()" class="close_btn">Close</button>
+    </div>
+</div>
+
+<header class="hdr">
+  <div class="container d-flex justify-content-between align-items-center py-3">
+    <h5 class="mb-0">DAILY AFFIRMATIONS FOR BEAUTY AND CONFIDENCE</h5>
+    <div class="ml-auto">
+      <button class="refresh-btn" onclick="refreshCards()">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-arrow-counterclockwise refresh-icon" viewBox="0 0 16 16">
+          <path d="M8 3a5 5 0 1 1-4.546 2.914.5.5 0 0 0-.908-.417A6 6 0 1 0 8 2z"></path>
+          <path d="M8 4.466V.534a.25.25 0 0 0-.41-.192L5.23 2.308a.25.25 0 0 0 0 .384l2.36 1.966A.25.25 0 0 0 8 4.466"></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+<div class="container text-center hover_p">
+    <p class="hover_p"><i><b>&#x0F3A;&#x2665;&#x0F3B; hover on cards to reveal affirmation &#x0F3A;&#x2665;&#x0F3B;</b></i></p>
+</div>
+
+<div class="container cards">
+    <div class="row">
+        <div class="col-4">
+            <div class="card">
+                <div class="front"></div>
+                <div class="back">
+                    <p>&#x0F3A;&#x2665;&#x0F3B;</p>
+                    <h1 class="main-text">I AM EMPOWERED AND I AM POWERFUL</h1>
+                    <h1 class="hidden-text" style="display: none">I ATTRACT OPPORTUNITIES THAT ARE ALIGNED WITH MY
+                        GOALS</h1>
+                    <p>&#x0F3A;&#x2665;&#x0F3B;</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <div class="front"></div>
+                <div class="back">
+                    <p>&#x0F3A;&#x2665;&#x0F3B;</p>
+                    <h1 class="main-text">I DESERVE TO LIVE THE LIFE OF MY DREAMS</h1>
+                    <h1 class="hidden-text" style="display: none">I CAN HANDLE ANYTHING THAT COMES MY WAY</h1>
+                    <p>&#x0F3A;&#x2665;&#x0F3B;</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <div class="front"></div>
+                <div class="back">
+                    <p>&#x0F3A;&#x2665;&#x0F3B;</p>
+                    <h1 class="main-text">I AM WORTHY OF ALL THAT I DESIRE</h1>
+                    <h1 class="hidden-text" style="display: none">I DON'T CHASE I ATTRACT, WHAT IS MEANT FOR ME WILL
+                        FIND ME</h1>
+                    <p>&#x0F3A;&#x2665;&#x0F3B;</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-4">
+            <div class="card">
+                <div class="front"></div>
+                <div class="back">
+                    <p>&#x0F3A;&#x2665;&#x0F3B;</p>
+                    <h1 class="main-text">I DESERVE TO LOVE MYSELF</h1>
+                    <h1 class="hidden-text" style="display: none">GOOD THINGS CONTINUOUSLY FLOW INTO MY LIFE</h1>
+                    <p>&#x0F3A;&#x2665;&#x0F3B;</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <div class="front"></div>
+                <div class="back">
+                    <p>&#x0F3A;&#x2665;&#x0F3B;</p>
+                    <h1 class="main-text">I AM DIVINE BEAUTY EMBODIED</h1>
+                    <h1 class="hidden-text" style="display: none">I CONSTANTLY ATTRACT OPPORTUNITIES THAT CREATE MORE
+                        WEALTH</h1>
+                    <p>&#x0F3A;&#x2665;&#x0F3B;</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <div class="front"></div>
+                <div class="back">
+                    <p>&#x0F3A;&#x2665;&#x0F3B;</p>
+                    <h1 class="main-text">I GLOW FROM THE INSIDE OUT</h1>
+                    <h1 class="hidden-text" style="display: none">I AM CAPABLE OF CREATING MY DREAM REALITY</h1>
+                    <p>&#x0F3A;&#x2665;&#x0F3B;</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-4">
+            <div class="card">
+                <div class="front"></div>
+                <div class="back">
+                    <p>&#x0F3A;&#x2665;&#x0F3B;</p>
+                    <h1 class="main-text">I MAKE DECISIONS THAT BENEFIT ME</h1>
+                    <h1 class="hidden-text" style="display: none">THE ONLY APPROVAL I NEED IS MY OWN</h1>
+                    <p>&#x0F3A;&#x2665;&#x0F3B;</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <div class="front"></div>
+                <div class="back">
+                    <p>&#x0F3A;&#x2665;&#x0F3B;</p>
+                    <h1 class="main-text">I AM ONLY HERE TO IMPRESS MYSELF</h1>
+                    <h1 class="hidden-text" style="display: none">I AM MY DREAM PERSON LIVING IN MY DREAM REALITY</h1>
+                    <p>&#x0F3A;&#x2665;&#x0F3B;</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <div class="front"></div>
+                <div class="back">
+                    <p>&#x0F3A;&#x2665;&#x0F3B;</p>
+                    <h1 class="main-text">I HAVE THE POWER TO CREATE THE LIFE OF MY DREAMS </h1>
+                    <h1 class="hidden-text" style="display: none">I AM A MAGNET FOR BLESSINGS,MIRACLES AND BEAUTY</h1>
+                    <p>&#x0F3A;&#x2665;&#x0F3B;</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<footer class="ftr">
+    <div class="container d-flex justify-content-between align-items-center py-3">
+        <h5 class="mb-0">&copy;	Georgina Mihailova 2022</h5>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
